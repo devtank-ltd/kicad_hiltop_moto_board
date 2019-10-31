@@ -2,4 +2,5 @@
   (lib (name Devtank)(type Legacy)(uri ${KIPRJMOD}/../common/Devtank_Schema_Lib/Devtank.lib)(options "")(descr ""))
   (lib (name Sensi_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Sensi_Board-rescue.lib)(options "")(descr ""))
   (lib (name Motor_Control_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Motor_Control_Board-rescue.lib)(options "")(descr ""))
+  (lib (name moto_board-rescue)(type Legacy)(uri ${KIPRJMOD}/moto_board-rescue.lib)(options "")(descr ""))
 )

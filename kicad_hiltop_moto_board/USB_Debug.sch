@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Motor_Control_Board-cache
+LIBS:moto_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -23,7 +23,7 @@ USB_P
 Text HLabel 3025 3975 0    60   BiDi ~ 0
 USB_N
 $Comp
-L Motor_Control_Board-rescue:CP2102N-A01-GQFN24-silabs-Sensi_Board-rescue U13
+L moto_board-rescue:CP2102N-A01-GQFN24-silabs-Sensi_Board-rescue-Motor_Control_Board-rescue U13
 U 1 1 5C2328D1
 P 5525 3475
 F 0 "U13" H 5125 4350 50  0000 C CNN
@@ -82,7 +82,7 @@ Connection ~ 5525 2325
 Wire Wire Line
 	5525 2325 5525 2450
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R78
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R78
 U 1 1 5C3A3F19
 P 4050 3775
 F 0 "R78" V 3950 3675 50  0000 C CNN
@@ -102,7 +102,7 @@ USB_~RESET
 Wire Wire Line
 	2675 2875 2975 2875
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R?
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R?
 U 1 1 5C3AE29F
 P 6650 3975
 AR Path="/589A1B39/5C3AE29F" Ref="R?"  Part="1" 
@@ -117,7 +117,7 @@ F 4 "101-024" V 6650 3975 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R?
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R?
 U 1 1 5C3AF9C1
 P 6650 4075
 AR Path="/589A1B39/5C3AF9C1" Ref="R?"  Part="1" 
@@ -138,7 +138,7 @@ Wire Wire Line
 Wire Wire Line
 	6125 3275 7125 3275
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R83
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R83
 U 1 1 5C3B4D7B
 P 7275 3175
 F 0 "R83" V 7175 3075 50  0000 C CNN
@@ -150,7 +150,7 @@ F 4 "101-005" V 7275 3175 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R84
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R84
 U 1 1 5C3B4EF0
 P 7275 3275
 F 0 "R84" V 7375 3175 50  0000 C CNN
@@ -166,7 +166,7 @@ Wire Wire Line
 Wire Wire Line
 	7425 3275 7575 3275
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R76
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R76
 U 1 1 5C3C0EE1
 P 3125 2875
 F 0 "R76" V 3025 2775 50  0000 C CNN
@@ -178,7 +178,7 @@ F 4 "101-005" V 3125 2875 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R77
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R77
 U 1 1 5C3C0F83
 P 3825 2625
 F 0 "R77" H 3700 2575 50  0000 C CNN
@@ -207,7 +207,7 @@ $EndComp
 Wire Wire Line
 	3825 2400 3825 2475
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C55
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C55
 U 1 1 5C3C60B5
 P 5800 2225
 F 0 "C55" H 5915 2271 50  0000 L CNN
@@ -221,7 +221,7 @@ F 6 "6.3V" H 5800 2225 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C56
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C56
 U 1 1 5C3C6FB8
 P 6225 2225
 F 0 "C56" H 6340 2271 50  0000 L CNN
@@ -279,7 +279,7 @@ NoConn ~ 6125 3375
 NoConn ~ 6125 3475
 NoConn ~ 6125 3575
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C?
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C?
 U 1 1 5CA83BDF
 P 3475 3275
 AR Path="/5AFBC859/5CA83BDF" Ref="C?"  Part="1" 
@@ -317,7 +317,7 @@ Wire Wire Line
 Wire Wire Line
 	6125 3975 6500 3975
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R?
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R?
 U 1 1 5CA8BD2A
 P 6650 3875
 AR Path="/589A1B39/5CA8BD2A" Ref="R?"  Part="1" 
@@ -334,7 +334,7 @@ $EndComp
 Wire Wire Line
 	6125 3875 6500 3875
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R?
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R?
 U 1 1 5CA8CA4A
 P 6650 3775
 AR Path="/589A1B39/5CA8CA4A" Ref="R?"  Part="1" 

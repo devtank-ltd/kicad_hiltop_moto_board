@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Motor_Control_Board-cache
+LIBS:moto_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Motor_Control_Board-rescue:USB2502-Devtank-Sensi_Board-rescue U27
+L moto_board-rescue:USB2502-Devtank-Sensi_Board-rescue-Motor_Control_Board-rescue U27
 U 1 1 5D8D0F87
 P 6150 4500
 F 0 "U27" H 6125 6515 50  0000 C CNN
@@ -1054,9 +1054,11 @@ NoConn ~ 7150 3850
 NoConn ~ 7150 4650
 NoConn ~ 5150 3600
 $Comp
-L Motor_Control_Board-rescue:AT24C02C-SSHM-T-Devtank-Sensi_Board-rescue U7
+L moto_board-rescue:AT24C02C-SSHM-T-Devtank-Sensi_Board-rescue-Motor_Control_Board-rescue U7
 U 1 1 5D7EF6D2
 P 9350 5700
+AR Path="/5D7EF6D2" Ref="U7"  Part="1" 
+AR Path="/5D8D08E6/5D7EF6D2" Ref="U7"  Part="1" 
 F 0 "U7" H 9375 6187 60  0000 C CNN
 F 1 "AT24C02C-SSHM-T" H 9375 6081 60  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9300 5150 60  0001 C CNN

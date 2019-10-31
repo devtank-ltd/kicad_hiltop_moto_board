@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Motor_Control_Board-cache
+LIBS:moto_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,11 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Devtank:DRV8704 U?
+L moto_board-rescue:DRV8704-Devtank-Motor_Control_Board-rescue U?
 U 1 1 60432411
 P 5125 3950
 AR Path="/5DDC3269/60432411" Ref="U?"  Part="1" 
 AR Path="/604188AB/60432411" Ref="U1"  Part="1" 
+AR Path="/60432411" Ref="U1"  Part="1" 
 F 0 "U1" H 5125 5431 50  0000 C CNN
 F 1 "DRV8704" H 5125 5340 50  0000 C CNN
 F 2 "" H 5125 2700 50  0001 C CNN

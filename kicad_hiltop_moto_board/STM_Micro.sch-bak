@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Motor_Control_Board-cache
+LIBS:moto_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Motor_Control_Board-rescue:STM32F072RBTx-MCU_ST_STM32-Sensi_Board-rescue U22
+L moto_board-rescue:STM32F072RBTx-MCU_ST_STM32-Sensi_Board-rescue-Motor_Control_Board-rescue U22
 U 1 1 5F956EB6
 P 7400 4675
 F 0 "U22" H 4525 6850 50  0000 C CNN
@@ -38,7 +38,7 @@ F 3 "" H 7500 1725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:Ferrite_Bead-device-Sensi_Board-rescue L11
+L moto_board-rescue:Ferrite_Bead-device-Sensi_Board-rescue-Motor_Control_Board-rescue L11
 U 1 1 5F957109
 P 8225 2025
 F 0 "L11" V 7951 2025 50  0000 C CNN
@@ -86,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	8525 2025 8375 2025
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C82
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C82
 U 1 1 5F957430
 P 7875 2250
 F 0 "C82" H 7990 2296 50  0000 L CNN
@@ -114,7 +114,7 @@ F 3 "" H 7875 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C73
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C73
 U 1 1 5F957A1A
 P 2125 1625
 F 0 "C73" H 2240 1671 50  0000 L CNN
@@ -126,7 +126,7 @@ F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C74
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C74
 U 1 1 5F957BC6
 P 2575 1625
 F 0 "C74" H 2690 1671 50  0000 L CNN
@@ -138,7 +138,7 @@ F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C79
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C79
 U 1 1 5F957C44
 P 3025 1625
 F 0 "C79" H 3140 1671 50  0000 L CNN
@@ -150,7 +150,7 @@ F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C80
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C80
 U 1 1 5F957C84
 P 3475 1625
 F 0 "C80" H 3590 1671 50  0000 L CNN
@@ -257,7 +257,7 @@ Connection ~ 7500 6925
 Wire Wire Line
 	4400 3075 3825 3075
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R120
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R120
 U 1 1 5F95CC59
 P 2725 2850
 F 0 "R120" H 2795 2896 50  0000 L CNN
@@ -291,7 +291,7 @@ NRST
 Text HLabel 2125 3275 0    60   Input ~ 0
 BOOT0
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C81
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C81
 U 1 1 5F9616D2
 P 3825 3550
 F 0 "C81" H 3940 3596 50  0000 L CNN
@@ -333,7 +333,7 @@ F 4 "780-001" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:Crystal_GND23-device-Sensi_Board-rescue Y3
+L moto_board-rescue:Crystal_GND23-device-Sensi_Board-rescue-Motor_Control_Board-rescue Y3
 U 1 1 5F964614
 P 3225 6550
 F 0 "Y3" V 3075 6400 50  0000 L CNN
@@ -373,7 +373,7 @@ Wire Wire Line
 Wire Wire Line
 	3575 6525 4100 6525
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C77
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C77
 U 1 1 5F96D367
 P 2850 6275
 F 0 "C77" V 2598 6275 50  0000 C CNN
@@ -403,7 +403,7 @@ Wire Wire Line
 	3000 6275 3225 6275
 Connection ~ 3225 6275
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C78
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C78
 U 1 1 5F96FC00
 P 2850 6825
 F 0 "C78" V 2598 6825 50  0000 C CNN
@@ -433,7 +433,7 @@ Wire Wire Line
 	3000 6825 3225 6825
 Connection ~ 3225 6825
 $Comp
-L Motor_Control_Board-rescue:Crystal_GND24-device-Sensi_Board-rescue Y2
+L moto_board-rescue:Crystal_GND24-device-Sensi_Board-rescue-Motor_Control_Board-rescue Y2
 U 1 1 5F97410A
 P 3050 4325
 F 0 "Y2" V 2900 4175 50  0000 L CNN
@@ -461,7 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 4075 3050 4175
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C75
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C75
 U 1 1 5F97DA85
 P 2825 4075
 F 0 "C75" V 2573 4075 50  0000 C CNN
@@ -488,7 +488,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4075 2675 4075
 $Comp
-L Motor_Control_Board-rescue:C-device-Sensi_Board-rescue C76
+L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C76
 U 1 1 5F97DA93
 P 2825 4625
 F 0 "C76" V 2600 4625 50  0000 C CNN
@@ -531,14 +531,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 4775 11800 4775
 Wire Wire Line
-	4400 4775 3925 4775
-Wire Wire Line
-	4400 4875 3925 4875
-Wire Wire Line
-	4400 5175 3925 5175
-Wire Wire Line
-	4400 5275 3925 5275
-Wire Wire Line
 	3225 6275 4000 6275
 Wire Wire Line
 	4000 6275 4000 6175
@@ -551,8 +543,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 3675 11800 3675
 Wire Wire Line
-	4400 5075 3925 5075
-Wire Wire Line
 	10400 4575 11800 4575
 Wire Wire Line
 	10400 5475 11800 5475
@@ -564,8 +554,6 @@ Wire Wire Line
 	10400 5775 11775 5775
 Wire Wire Line
 	10400 5175 11800 5175
-Wire Wire Line
-	4400 4575 3925 4575
 Wire Wire Line
 	10400 6075 11775 6075
 Wire Wire Line
@@ -589,8 +577,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 4275 11800 4275
 Wire Wire Line
-	4400 4975 3925 4975
-Wire Wire Line
 	10400 5675 11775 5675
 Wire Wire Line
 	10400 5275 11800 5275
@@ -600,10 +586,8 @@ Wire Wire Line
 	10400 4075 11800 4075
 Text HLabel 11775 5775 2    60   Output ~ 0
 DEBUG_UART_TX
-Text HLabel 11800 3375 2    60   Input ~ 0
-ADC3
 $Comp
-L Motor_Control_Board-rescue:R-device-Sensi_Board-rescue R124
+L moto_board-rescue:R-device-Sensi_Board-rescue-Motor_Control_Board-rescue R124
 U 1 1 5CB16726
 P 12600 3575
 F 0 "R124" V 12525 3525 50  0000 C CNN
@@ -615,7 +599,7 @@ F 4 "101-024" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Motor_Control_Board-rescue:LED-device-Sensi_Board-rescue D13
+L moto_board-rescue:LED-device-Sensi_Board-rescue-Motor_Control_Board-rescue D13
 U 1 1 5CB1BE49
 P 13075 3575
 F 0 "D13" H 13066 3791 50  0000 C CNN
@@ -651,26 +635,10 @@ Text HLabel 11800 4275 2    60   Output ~ 0
 USB_DATA_P
 Text HLabel 11800 3875 2    60   BiDi ~ 0
 GPIO2
-Text HLabel 11800 4775 2    60   BiDi ~ 0
-GPIO13
-Text HLabel 11775 5575 2    60   BiDi ~ 0
-GPIO10
 Text HLabel 11775 6075 2    60   BiDi ~ 0
 GPIO5
-Text HLabel 3925 4575 0    60   BiDi ~ 0
-GPIO9
-Text HLabel 4400 6075 0    60   BiDi ~ 0
-GPIO11
-Text HLabel 11800 4975 2    60   BiDi ~ 0
-GPIO14
 Text HLabel 11775 6275 2    60   BiDi ~ 0
 GPIO7
-Text HLabel 3925 5175 0    60   Input ~ 0
-ADC12
-Text HLabel 3925 5275 0    60   Input ~ 0
-ADC13
-Text HLabel 11800 3175 2    60   BiDi ~ 0
-GPIO12
 Text HLabel 3925 5575 0    60   BiDi ~ 0
 GPIO1
 Wire Wire Line
@@ -678,7 +646,7 @@ Wire Wire Line
 Wire Wire Line
 	3925 5475 4400 5475
 $Comp
-L Motor_Control_Board-rescue:Test_Point-Connector-Sensi_Board-rescue TP?
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP?
 U 1 1 62481FA3
 P 7100 1825
 AR Path="/62481FA3" Ref="TP?"  Part="1" 
@@ -711,10 +679,6 @@ Text HLabel 11800 5175 2    60   Input ~ 0
 STM_SPI1_MISO
 Text HLabel 11800 5275 2    60   Input ~ 0
 STM_SPI1_MOSI
-Text HLabel 11800 5375 2    60   Input ~ 0
-STM_SCL
-Text HLabel 11800 5475 2    60   Input ~ 0
-STM_SDA
 NoConn ~ 4400 5375
 NoConn ~ 4400 3475
 NoConn ~ 3425 6550
@@ -727,16 +691,6 @@ Text HLabel 11800 4375 2    60   Input ~ 0
 SWD_IO
 Text HLabel 11800 4475 2    60   Input ~ 0
 SWD_SCK
-Text HLabel 3925 4875 0    60   Input ~ 0
-ADC9
-Text HLabel 3925 4775 0    60   Input ~ 0
-ADC8
-Text HLabel 11800 3475 2    60   Input ~ 0
-ADC4
-Text HLabel 11800 3275 2    60   Input ~ 0
-ADC2
-Text HLabel 11800 3075 2    60   Input ~ 0
-ADC1
 Text HLabel 4400 5675 0    60   BiDi ~ 0
 GPIO3
 Text HLabel 11775 6175 2    60   BiDi ~ 0
@@ -745,18 +699,8 @@ Text HLabel 11775 5875 2    60   Input ~ 0
 DEBUG_UART_RX
 Wire Wire Line
 	10400 5975 11800 5975
-Text HLabel 3925 4975 0    60   Input ~ 0
-ADC10
-Text HLabel 3925 5075 0    60   Input ~ 0
-ADC11
 Wire Wire Line
 	7500 1725 7500 1825
-Text HLabel 11800 3675 2    60   Input ~ 0
-ADC5
-Text HLabel 11800 3775 2    60   Input ~ 0
-ADC6
-Text HLabel 11775 4875 2    60   Input ~ 0
-ADC7
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5DAF6A7D
@@ -801,14 +745,32 @@ Wire Wire Line
 	3250 4325 3275 4325
 NoConn ~ 4400 5775
 NoConn ~ 4400 5875
-Text HLabel 4400 5975 0    60   BiDi ~ 0
-GPIO15
-Text HLabel 11800 4075 2    60   BiDi ~ 0
-GPIO16
-Text HLabel 11800 4575 2    60   BiDi ~ 0
-GPIO17
-Text HLabel 11775 5675 2    60   BiDi ~ 0
-GPIO18
-Text HLabel 11800 5975 2    60   BiDi ~ 0
-GPIO19
+NoConn ~ 4400 4575
+NoConn ~ 4400 4775
+NoConn ~ 4400 4875
+NoConn ~ 4400 4975
+NoConn ~ 4400 5075
+NoConn ~ 4400 5175
+NoConn ~ 4400 5275
+NoConn ~ 4400 5975
+NoConn ~ 4400 6075
+NoConn ~ 11800 3075
+NoConn ~ 11800 3175
+NoConn ~ 11800 3275
+NoConn ~ 11800 3375
+NoConn ~ 11800 3475
+NoConn ~ 11800 3675
+NoConn ~ 11800 3775
+NoConn ~ 11800 4075
+NoConn ~ 11800 4575
+NoConn ~ 11800 4875
+NoConn ~ 11800 5375
+NoConn ~ 11800 5475
+NoConn ~ 11775 5575
+NoConn ~ 11775 5675
+NoConn ~ 11800 5975
+Text HLabel 11800 4975 2    60   Input ~ 0
+STM_RES2
+Text HLabel 11800 4775 2    60   Input ~ 0
+STM_RES1
 $EndSCHEMATC
