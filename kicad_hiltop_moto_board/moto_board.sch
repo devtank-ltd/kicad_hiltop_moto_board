@@ -842,7 +842,7 @@ Wire Wire Line
 Wire Wire Line
 	3225 1500 2175 1500
 Wire Wire Line
-	3225 4750 2175 4750
+	5125 5275 5950 5275
 Wire Wire Line
 	3225 4875 2175 4875
 Text Label 2175 2550 0    60   ~ 0
@@ -1175,33 +1175,6 @@ $EndComp
 Connection ~ 16100 2425
 Wire Wire Line
 	16100 2425 16000 2425
-$Sheet
-S 3225 1350 1900 6000
-U 5F956DB7
-F0 "STM_Micro" 60
-F1 "STM_Micro.sch" 60
-F2 "NRST" I L 3225 1500 60 
-F3 "BOOT0" I L 3225 1650 60 
-F4 "DEBUG_UART_RX" I L 3225 1925 60 
-F5 "DEBUG_UART_TX" O L 3225 2075 60 
-F6 "USB_DATA_N" O L 3225 2400 60 
-F7 "USB_DATA_P" O L 3225 2550 60 
-F8 "STM_SPI1_SCK" I R 5125 4675 60 
-F9 "STM_SPI1_MISO" I R 5125 4875 60 
-F10 "STM_SPI1_MOSI" I R 5125 5075 60 
-F11 "SWD_IO" I R 5125 3725 60 
-F12 "SWD_SCK" I R 5125 3850 60 
-F13 "GPIO4" B L 3225 5125 60 
-F14 "GPIO2" B L 3225 4875 60 
-F15 "GPIO5" B L 3225 5250 60 
-F16 "GPIO7" B L 3225 5500 60 
-F17 "GPIO1" I L 3225 4750 60 
-F18 "GPIO8" B L 3225 5625 60 
-F19 "GPIO3" B L 3225 5000 60 
-F20 "GPIO6" B L 3225 5375 60 
-F21 "STM_RES2" I L 3225 6250 60 
-F22 "STM_RES1" I L 3225 6375 60 
-$EndSheet
 Wire Wire Line
 	2175 6250 3225 6250
 Wire Wire Line
@@ -1645,14 +1618,14 @@ BOUT2
 Wire Wire Line
 	7050 8625 6375 8625
 Text Label 6375 8625 0    60   ~ 0
-motor_SLEEPn
+M_SLEEPn
 $Comp
 L device:R R2
 U 1 1 607BFA52
 P 7200 8625
 F 0 "R2" V 6993 8625 50  0000 C CNN
 F 1 "0R" V 7084 8625 50  0000 C CNN
-F 2 "" V 7130 8625 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 8625 50  0001 C CNN
 F 3 "" H 7200 8625 50  0001 C CNN
 	1    7200 8625
 	0    1    1    0   
@@ -1662,14 +1635,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 8750 6375 8750
 Text Label 6375 8750 0    60   ~ 0
-motor_RESET
+M_RESET
 $Comp
 L device:R R3
 U 1 1 609580B7
 P 7200 8750
 F 0 "R3" V 6993 8750 50  0000 C CNN
 F 1 "0R" V 7084 8750 50  0000 C CNN
-F 2 "" V 7130 8750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 8750 50  0001 C CNN
 F 3 "" H 7200 8750 50  0001 C CNN
 	1    7200 8750
 	0    1    1    0   
@@ -1679,14 +1652,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 8875 6375 8875
 Text Label 6375 8875 0    60   ~ 0
-motor_AIN1
+M_AIN1
 $Comp
 L device:R R4
 U 1 1 609E1193
 P 7200 8875
 F 0 "R4" V 6993 8875 50  0000 C CNN
 F 1 "0R" V 7084 8875 50  0000 C CNN
-F 2 "" V 7130 8875 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 8875 50  0001 C CNN
 F 3 "" H 7200 8875 50  0001 C CNN
 	1    7200 8875
 	0    1    1    0   
@@ -1696,14 +1669,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 9000 6375 9000
 Text Label 6375 9000 0    60   ~ 0
-motor_AIN2
+M_AIN2
 $Comp
 L device:R R5
 U 1 1 60A26475
 P 7200 9000
 F 0 "R5" V 6993 9000 50  0000 C CNN
 F 1 "0R" V 7084 9000 50  0000 C CNN
-F 2 "" V 7130 9000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 9000 50  0001 C CNN
 F 3 "" H 7200 9000 50  0001 C CNN
 	1    7200 9000
 	0    1    1    0   
@@ -1713,14 +1686,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 9125 6375 9125
 Text Label 6375 9125 0    60   ~ 0
-motor_BIN1
+M_BIN1
 $Comp
 L device:R R6
 U 1 1 60A6C23F
 P 7200 9125
 F 0 "R6" V 6993 9125 50  0000 C CNN
 F 1 "0R" V 7084 9125 50  0000 C CNN
-F 2 "" V 7130 9125 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 9125 50  0001 C CNN
 F 3 "" H 7200 9125 50  0001 C CNN
 	1    7200 9125
 	0    1    1    0   
@@ -1730,14 +1703,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 9250 6375 9250
 Text Label 6375 9250 0    60   ~ 0
-motor_BIN2
+M_BIN2
 $Comp
 L device:R R7
 U 1 1 60AB29EC
 P 7200 9250
 F 0 "R7" V 6993 9250 50  0000 C CNN
 F 1 "0R" V 7084 9250 50  0000 C CNN
-F 2 "" V 7130 9250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 9250 50  0001 C CNN
 F 3 "" H 7200 9250 50  0001 C CNN
 	1    7200 9250
 	0    1    1    0   
@@ -1747,14 +1720,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 9500 6375 9500
 Text Label 6375 9500 0    60   ~ 0
-motor_SCLK
+M_SCLK
 $Comp
 L device:R R8
 U 1 1 60AFBDF8
 P 7200 9500
 F 0 "R8" V 6993 9500 50  0000 C CNN
 F 1 "0R" V 7084 9500 50  0000 C CNN
-F 2 "" V 7130 9500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 9500 50  0001 C CNN
 F 3 "" H 7200 9500 50  0001 C CNN
 	1    7200 9500
 	0    1    1    0   
@@ -1764,14 +1737,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 9625 6375 9625
 Text Label 6375 9625 0    60   ~ 0
-motor_SDATI
+M_SDATI
 $Comp
 L device:R R9
 U 1 1 60B440B0
 P 7200 9625
 F 0 "R9" V 6993 9625 50  0000 C CNN
 F 1 "0R" V 7084 9625 50  0000 C CNN
-F 2 "" V 7130 9625 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 9625 50  0001 C CNN
 F 3 "" H 7200 9625 50  0001 C CNN
 	1    7200 9625
 	0    1    1    0   
@@ -1781,14 +1754,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 9750 6375 9750
 Text Label 6375 9750 0    60   ~ 0
-motor_SCS
+M_SCS
 $Comp
 L device:R R10
 U 1 1 60B8D109
 P 7200 9750
 F 0 "R10" V 6993 9750 50  0000 C CNN
 F 1 "0R" V 7084 9750 50  0000 C CNN
-F 2 "" V 7130 9750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 9750 50  0001 C CNN
 F 3 "" H 7200 9750 50  0001 C CNN
 	1    7200 9750
 	0    1    1    0   
@@ -1798,14 +1771,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 9875 6375 9875
 Text Label 6375 9875 0    60   ~ 0
-motor_DATO
+M_SDATO
 $Comp
 L device:R R11
 U 1 1 60BD6CD4
 P 7200 9875
 F 0 "R11" V 6993 9875 50  0000 C CNN
 F 1 "0R" V 7084 9875 50  0000 C CNN
-F 2 "" V 7130 9875 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 9875 50  0001 C CNN
 F 3 "" H 7200 9875 50  0001 C CNN
 	1    7200 9875
 	0    1    1    0   
@@ -1815,14 +1788,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 10150 6375 10150
 Text Label 6375 10150 0    60   ~ 0
-motor_FAULTn
+M_FAULTn
 $Comp
 L device:R R12
 U 1 1 60C21043
 P 7200 10150
 F 0 "R12" V 6993 10150 50  0000 C CNN
 F 1 "0R" V 7084 10150 50  0000 C CNN
-F 2 "" V 7130 10150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 10150 50  0001 C CNN
 F 3 "" H 7200 10150 50  0001 C CNN
 	1    7200 10150
 	0    1    1    0   
@@ -1830,60 +1803,38 @@ $EndComp
 Wire Wire Line
 	7350 10150 7700 10150
 $Comp
-L Connector:Conn_01x03 J2
-U 1 1 60D65E63
-P 12350 9100
-F 0 "J2" H 12430 9142 50  0000 L CNN
-F 1 "Conn_01x03" H 12430 9051 50  0000 L CNN
-F 2 "" H 12350 9100 50  0001 C CNN
-F 3 "~" H 12350 9100 50  0001 C CNN
-	1    12350 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03 J4
-U 1 1 60D66981
-P 12250 10125
-F 0 "J4" H 12330 10167 50  0000 L CNN
-F 1 "Conn_01x03" H 12330 10076 50  0000 L CNN
-F 2 "" H 12250 10125 50  0001 C CNN
-F 3 "~" H 12250 10125 50  0001 C CNN
-	1    12250 10125
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x04 J1
 U 1 1 60D85A66
 P 14175 9125
 F 0 "J1" H 14255 9117 50  0000 L CNN
 F 1 "Conn_01x04" H 14255 9026 50  0000 L CNN
-F 2 "" H 14175 9125 50  0001 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_350211-1_1x04_P5.08mm_Vertical" H 14175 9125 50  0001 C CNN
 F 3 "~" H 14175 9125 50  0001 C CNN
 	1    14175 9125
 	1    0    0    -1  
 $EndComp
 Text Label 5950 4675 2    60   ~ 0
-motor_SCLK
+M_SCLK
 Text Label 5950 5075 2    60   ~ 0
-motor_SDATI
-Text Label 2175 4750 0    60   ~ 0
-motor_SCS
+M_SDATI
+Text Label 5950 5275 2    60   ~ 0
+M_SCS
 Text Label 5950 4875 2    60   ~ 0
-motor_DATO
+M_SDATO
 Text Label 2175 5375 0    60   ~ 0
-motor_SLEEPn
+M_SLEEPn
 Text Label 2175 5500 0    60   ~ 0
-motor_RESET
+M_RESET
 Text Label 2175 4875 0    60   ~ 0
-motor_AIN1
+M_AIN1
 Text Label 2175 5000 0    60   ~ 0
-motor_AIN2
+M_AIN2
 Text Label 2175 5125 0    60   ~ 0
-motor_BIN1
+M_BIN1
 Text Label 2175 5250 0    60   ~ 0
-motor_BIN2
+M_BIN2
 Text Label 2175 5625 0    60   ~ 0
-motor_FAULTn
+M_FAULTn
 Wire Wire Line
 	12150 9000 11825 9000
 Text Label 11825 9000 0    60   ~ 0
@@ -1932,7 +1883,7 @@ U 1 1 613052AE
 P 7025 7950
 F 0 "R1" H 7095 7996 50  0000 L CNN
 F 1 "DNF" H 7095 7905 50  0000 L CNN
-F 2 "" V 6955 7950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6955 7950 50  0001 C CNN
 F 3 "" H 7025 7950 50  0001 C CNN
 	1    7025 7950
 	1    0    0    -1  
@@ -1943,7 +1894,7 @@ U 1 1 61305843
 P 7325 7950
 F 0 "R13" H 7395 7996 50  0000 L CNN
 F 1 "0R" H 7395 7905 50  0000 L CNN
-F 2 "" V 7255 7950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7255 7950 50  0001 C CNN
 F 3 "" H 7325 7950 50  0001 C CNN
 	1    7325 7950
 	1    0    0    -1  
@@ -2000,7 +1951,7 @@ U 1 1 6183B109
 P 3075 9500
 F 0 "J5" H 3125 9917 50  0000 C CNN
 F 1 "Conn_02x05_Top_Bottom" H 3125 9826 50  0000 C CNN
-F 2 "" H 3075 9500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3075 9500 50  0001 C CNN
 F 3 "~" H 3075 9500 50  0001 C CNN
 	1    3075 9500
 	1    0    0    -1  
@@ -2077,9 +2028,9 @@ Wire Wire Line
 Wire Wire Line
 	2575 9300 2575 8975
 Connection ~ 2575 8975
-Text Notes 5700 8950 0    60   ~ 0
+Text Notes 5300 8925 0    60   ~ 0
 Direct PWM
-Text Notes 5475 9775 0    60   ~ 0
+Text Notes 5200 9725 0    60   ~ 0
 PWM through SPI\n
 $Comp
 L Devtank:ADJ_DC #PWR0102
@@ -2091,5 +2042,232 @@ F 2 "" H 7025 7750 50  0000 C CNN
 F 3 "" H 7025 7750 50  0000 C CNN
 	1    7025 7750
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04 J4
+U 1 1 5DBD4542
+P 12350 9100
+F 0 "J4" H 12430 9092 50  0000 L CNN
+F 1 "Conn_01x04" H 12430 9001 50  0000 L CNN
+F 2 "Devtank_PCB_Lib:Molex2x06" H 12350 9100 50  0001 C CNN
+F 3 "~" H 12350 9100 50  0001 C CNN
+	1    12350 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04 J2
+U 1 1 5DBD568C
+P 12250 10125
+F 0 "J2" H 12330 10117 50  0000 L CNN
+F 1 "Conn_01x04" H 12330 10026 50  0000 L CNN
+F 2 "Devtank_PCB_Lib:Molex2x06" H 12250 10125 50  0001 C CNN
+F 3 "~" H 12250 10125 50  0001 C CNN
+	1    12250 10125
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12050 10325
+NoConn ~ 12150 9300
+$Sheet
+S 3225 1350 1900 6000
+U 5F956DB7
+F0 "STM_Micro" 60
+F1 "STM_Micro.sch" 60
+F2 "NRST" I L 3225 1500 60 
+F3 "BOOT0" I L 3225 1650 60 
+F4 "DEBUG_UART_RX" I L 3225 1925 60 
+F5 "DEBUG_UART_TX" O L 3225 2075 60 
+F6 "USB_DATA_N" O L 3225 2400 60 
+F7 "USB_DATA_P" O L 3225 2550 60 
+F8 "SWD_IO" I R 5125 3725 60 
+F9 "SWD_SCK" I R 5125 3850 60 
+F10 "STM_RES2" I L 3225 6375 60 
+F11 "STM_RES1" I L 3225 6250 60 
+F12 "M_BIN1" B L 3225 5125 60 
+F13 "M_AIN1" B L 3225 4875 60 
+F14 "M_BIN2" B L 3225 5250 60 
+F15 "M_RESET" B L 3225 5500 60 
+F16 "M_FAULTn" B L 3225 5625 60 
+F17 "M_SCLK" I R 5125 4675 60 
+F18 "M_AIN2" B L 3225 5000 60 
+F19 "M_SLEEPn" B L 3225 5375 60 
+F20 "M_SDATO" I R 5125 4875 60 
+F21 "M_SDATI" I R 5125 5075 60 
+F22 "M_SCS" B R 5125 5275 60 
+$EndSheet
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP13
+U 1 1 5DF66A1D
+P 9350 8875
+F 0 "TP13" V 9350 9050 50  0000 L CNN
+F 1 "Test_Point" H 9408 8904 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 9550 8875 50  0001 C CNN
+F 3 "~" H 9550 8875 50  0001 C CNN
+	1    9350 8875
+	0    1    1    0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP14
+U 1 1 5DF82506
+P 9350 9075
+F 0 "TP14" V 9350 9250 50  0000 L CNN
+F 1 "Test_Point" H 9408 9104 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 9550 9075 50  0001 C CNN
+F 3 "~" H 9550 9075 50  0001 C CNN
+	1    9350 9075
+	0    1    1    0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP15
+U 1 1 5DF9E167
+P 9350 9600
+F 0 "TP15" V 9350 9775 50  0000 L CNN
+F 1 "Test_Point" H 9408 9629 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 9550 9600 50  0001 C CNN
+F 3 "~" H 9550 9600 50  0001 C CNN
+	1    9350 9600
+	0    1    1    0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP16
+U 1 1 5DFB9DF9
+P 9350 9800
+F 0 "TP16" V 9350 9975 50  0000 L CNN
+F 1 "Test_Point" H 9408 9829 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 9550 9800 50  0001 C CNN
+F 3 "~" H 9550 9800 50  0001 C CNN
+	1    9350 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP1
+U 1 1 5DFEE2D0
+P 6375 8625
+F 0 "TP1" V 6375 8800 50  0000 L CNN
+F 1 "Test_Point" H 6433 8654 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 8625 50  0001 C CNN
+F 3 "~" H 6575 8625 50  0001 C CNN
+	1    6375 8625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP3
+U 1 1 5E009CA8
+P 6375 8750
+F 0 "TP3" V 6375 8925 50  0000 L CNN
+F 1 "Test_Point" H 6433 8779 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 8750 50  0001 C CNN
+F 3 "~" H 6575 8750 50  0001 C CNN
+	1    6375 8750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP4
+U 1 1 5E02559A
+P 6375 8875
+F 0 "TP4" V 6375 9050 50  0000 L CNN
+F 1 "Test_Point" H 6433 8904 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 8875 50  0001 C CNN
+F 3 "~" H 6575 8875 50  0001 C CNN
+	1    6375 8875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP5
+U 1 1 5E040EFA
+P 6375 9000
+F 0 "TP5" V 6375 9175 50  0000 L CNN
+F 1 "Test_Point" H 6433 9029 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 9000 50  0001 C CNN
+F 3 "~" H 6575 9000 50  0001 C CNN
+	1    6375 9000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP6
+U 1 1 5E05C80F
+P 6375 9125
+F 0 "TP6" V 6375 9300 50  0000 L CNN
+F 1 "Test_Point" H 6433 9154 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 9125 50  0001 C CNN
+F 3 "~" H 6575 9125 50  0001 C CNN
+	1    6375 9125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP7
+U 1 1 5E0780EF
+P 6375 9250
+F 0 "TP7" V 6375 9425 50  0000 L CNN
+F 1 "Test_Point" H 6433 9279 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 9250 50  0001 C CNN
+F 3 "~" H 6575 9250 50  0001 C CNN
+	1    6375 9250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP8
+U 1 1 5E093953
+P 6375 9500
+F 0 "TP8" V 6375 9675 50  0000 L CNN
+F 1 "Test_Point" H 6433 9529 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 9500 50  0001 C CNN
+F 3 "~" H 6575 9500 50  0001 C CNN
+	1    6375 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP9
+U 1 1 5E0CB544
+P 6375 9625
+F 0 "TP9" V 6375 9800 50  0000 L CNN
+F 1 "Test_Point" H 6433 9654 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 9625 50  0001 C CNN
+F 3 "~" H 6575 9625 50  0001 C CNN
+	1    6375 9625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP10
+U 1 1 5E0E6E77
+P 6375 9750
+F 0 "TP10" V 6375 9925 50  0000 L CNN
+F 1 "Test_Point" H 6433 9779 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 9750 50  0001 C CNN
+F 3 "~" H 6575 9750 50  0001 C CNN
+	1    6375 9750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP11
+U 1 1 5E102895
+P 6375 9875
+F 0 "TP11" V 6375 10050 50  0000 L CNN
+F 1 "Test_Point" H 6433 9904 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 9875 50  0001 C CNN
+F 3 "~" H 6575 9875 50  0001 C CNN
+	1    6375 9875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP12
+U 1 1 5E13F0B7
+P 7700 7750
+F 0 "TP12" V 7700 7925 50  0000 L CNN
+F 1 "Test_Point" H 7758 7779 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7900 7750 50  0001 C CNN
+F 3 "~" H 7900 7750 50  0001 C CNN
+	1    7700 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP23
+U 1 1 5DC23BFF
+P 6375 10150
+F 0 "TP23" V 6375 10325 50  0000 L CNN
+F 1 "Test_Point" H 6433 10179 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6575 10150 50  0001 C CNN
+F 3 "~" H 6575 10150 50  0001 C CNN
+	1    6375 10150
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

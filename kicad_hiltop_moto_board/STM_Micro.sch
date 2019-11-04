@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title ""
 Date "2019-10-01"
 Rev "Draft"
@@ -628,19 +628,17 @@ Wire Wire Line
 Wire Wire Line
 	13325 3575 13225 3575
 Text HLabel 11800 3975 2    60   BiDi ~ 0
-GPIO4
+M_BIN1
 Text HLabel 11800 4175 2    60   Output ~ 0
 USB_DATA_N
 Text HLabel 11800 4275 2    60   Output ~ 0
 USB_DATA_P
 Text HLabel 11800 3875 2    60   BiDi ~ 0
-GPIO2
+M_AIN1
 Text HLabel 11775 6075 2    60   BiDi ~ 0
-GPIO5
+M_BIN2
 Text HLabel 11775 6275 2    60   BiDi ~ 0
-GPIO7
-Text HLabel 3925 5575 0    60   BiDi ~ 0
-GPIO1
+M_RESET
 Wire Wire Line
 	10400 5075 11800 5075
 Wire Wire Line
@@ -670,15 +668,15 @@ Wire Wire Line
 Wire Wire Line
 	10400 3175 11800 3175
 Text HLabel 3925 5475 0    60   BiDi ~ 0
-GPIO8
+M_FAULTn
 Wire Wire Line
 	2125 3275 4400 3275
 Text HLabel 11800 5075 2    60   Input ~ 0
-STM_SPI1_SCK
+M_SCLK
 Text HLabel 11800 5175 2    60   Input ~ 0
-STM_SPI1_MISO
+M_SDATO
 Text HLabel 11800 5275 2    60   Input ~ 0
-STM_SPI1_MOSI
+M_SDATI
 NoConn ~ 4400 5375
 NoConn ~ 4400 3475
 NoConn ~ 3425 6550
@@ -692,9 +690,9 @@ SWD_IO
 Text HLabel 11800 4475 2    60   Input ~ 0
 SWD_SCK
 Text HLabel 4400 5675 0    60   BiDi ~ 0
-GPIO3
+M_AIN2
 Text HLabel 11775 6175 2    60   BiDi ~ 0
-GPIO6
+M_SLEEPn
 Text HLabel 11775 5875 2    60   Input ~ 0
 DEBUG_UART_RX
 Wire Wire Line
@@ -773,4 +771,6 @@ Text HLabel 11800 4975 2    60   Input ~ 0
 STM_RES2
 Text HLabel 11800 4775 2    60   Input ~ 0
 STM_RES1
+Text HLabel 3925 5575 0    60   BiDi ~ 0
+M_SCS
 $EndSCHEMATC

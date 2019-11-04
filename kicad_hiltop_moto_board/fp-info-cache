@@ -1,4 +1,4 @@
-16533439567504863
+16537006782583310
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -42874,6 +42874,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DRV8704
+SOP50P640X120-38N
+
+
+0
+63
+63
 Devtank_PCB_Lib
 2-SMD_J-LEAD_r3.5x2.9mm_d4.5-6.5mm
 
@@ -43021,6 +43028,13 @@ ATPAK
 0
 7
 3
+Devtank_PCB_Lib
+DRV8704
+
+
+0
+63
+63
 Devtank_PCB_Lib
 DSI_FCC15W_VERT
 
