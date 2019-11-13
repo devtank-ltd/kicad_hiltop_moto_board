@@ -1,4 +1,4 @@
-16538586134716310
+16541734220623310
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -43034,7 +43034,7 @@ DRV8704
 
 0
 63
-63
+39
 Devtank_PCB_Lib
 DSI_FCC15W_VERT
 
@@ -43280,6 +43280,13 @@ QFP 0.4
 0
 68
 65
+Devtank_PCB_Lib
+Phoenix_Contact_SPTAF_4_way_terminal_block
+
+
+0
+8
+4
 Devtank_PCB_Lib
 PowerPAK_SO-8
 Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
@@ -43574,6 +43581,13 @@ Through hole ice40 pin header
 0
 164
 161
+Devtank_PCB_Lib
+moto_board_4_pin_header
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+4
+4
 Devtank_PCB_Lib
 uSD_47219-2001
 

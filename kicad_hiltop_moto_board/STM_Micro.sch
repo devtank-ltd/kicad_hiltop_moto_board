@@ -337,7 +337,7 @@ L moto_board-rescue:Crystal_GND23-device-Sensi_Board-rescue-Motor_Control_Board-
 U 1 1 5F964614
 P 3225 6550
 F 0 "Y3" V 3075 6400 50  0000 L CNN
-F 1 "ABS25-32.768KHZ-6-T" V 3375 6425 50  0000 L CNN
+F 1 "ABS25-32.768KHZ-6-T" V 3425 6375 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm" H 3225 6550 50  0001 C CNN
 F 3 "" H 3225 6550 50  0001 C CNN
 F 4 "181-008" H 3225 6550 50  0001 C CNN "Devtank"
@@ -436,7 +436,7 @@ $Comp
 L moto_board-rescue:Crystal_GND24-device-Sensi_Board-rescue-Motor_Control_Board-rescue Y2
 U 1 1 5F97410A
 P 3050 4325
-F 0 "Y2" V 2900 4175 50  0000 L CNN
+F 0 "Y2" V 2875 4225 50  0000 L CNN
 F 1 "8MHZ" V 3200 4350 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_Abracon_ABM3C-4Pin_5.0x3.2mm" H 3050 4325 50  0001 C CNN
 F 3 "" H 3050 4325 50  0001 C CNN
@@ -491,8 +491,8 @@ $Comp
 L moto_board-rescue:C-device-Sensi_Board-rescue-Motor_Control_Board-rescue C76
 U 1 1 5F97DA93
 P 2825 4625
-F 0 "C76" V 2600 4625 50  0000 C CNN
-F 1 "18pF" V 2675 4625 50  0000 C CNN
+F 0 "C76" V 2975 4625 50  0000 C CNN
+F 1 "18pF" V 3050 4650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2863 4475 50  0001 C CNN
 F 3 "" H 2825 4625 50  0001 C CNN
 F 4 "106-003" H 0   0   50  0001 C CNN "Devtank"
@@ -556,8 +556,6 @@ Wire Wire Line
 	10400 5175 11800 5175
 Wire Wire Line
 	10400 6075 11775 6075
-Wire Wire Line
-	4400 5575 3925 5575
 Wire Wire Line
 	10400 5875 11775 5875
 Wire Wire Line
@@ -627,22 +625,14 @@ Wire Wire Line
 	13325 3425 13325 3575
 Wire Wire Line
 	13325 3575 13225 3575
-Text HLabel 11800 3975 2    60   BiDi ~ 0
-M_BIN1
 Text HLabel 11800 4175 2    60   Output ~ 0
 USB_DATA_N
 Text HLabel 11800 4275 2    60   Output ~ 0
 USB_DATA_P
-Text HLabel 11800 3875 2    60   BiDi ~ 0
-M_AIN1
-Text HLabel 11775 6075 2    60   BiDi ~ 0
-M_BIN2
-Text HLabel 11775 6275 2    60   BiDi ~ 0
+Text HLabel 4100 4975 0    60   BiDi ~ 0
 M_RESET
 Wire Wire Line
 	10400 5075 11800 5075
-Wire Wire Line
-	3925 5475 4400 5475
 $Comp
 L moto_board-rescue:Test_Point-Connector-Sensi_Board-rescue-Motor_Control_Board-rescue TP?
 U 1 1 62481FA3
@@ -667,7 +657,7 @@ Wire Wire Line
 	10400 3075 11800 3075
 Wire Wire Line
 	10400 3175 11800 3175
-Text HLabel 3925 5475 0    60   BiDi ~ 0
+Text HLabel 4100 5975 0    60   BiDi ~ 0
 M_FAULTn
 Wire Wire Line
 	2125 3275 4400 3275
@@ -689,9 +679,7 @@ Text HLabel 11800 4375 2    60   Input ~ 0
 SWD_IO
 Text HLabel 11800 4475 2    60   Input ~ 0
 SWD_SCK
-Text HLabel 4400 5675 0    60   BiDi ~ 0
-M_AIN2
-Text HLabel 11775 6175 2    60   BiDi ~ 0
+Text HLabel 4100 5075 0    60   BiDi ~ 0
 M_SLEEPn
 Text HLabel 11775 5875 2    60   Input ~ 0
 DEBUG_UART_RX
@@ -704,7 +692,7 @@ L power:PWR_FLAG #FLG0102
 U 1 1 5DAF6A7D
 P 7750 1975
 F 0 "#FLG0102" H 7750 2050 50  0001 C CNN
-F 1 "PWR_FLAG" H 7750 2148 50  0000 C CNN
+F 1 "PWR_FLAG" H 7775 2175 50  0000 C CNN
 F 2 "" H 7750 1975 50  0001 C CNN
 F 3 "" H 7750 1975 50  0001 C CNN
 	1    7750 1975
@@ -720,7 +708,7 @@ L power:GND #PWR0162
 U 1 1 5DB0E805
 P 3275 4325
 F 0 "#PWR0162" H 3275 4075 50  0001 C CNN
-F 1 "GND" H 3280 4152 50  0000 C CNN
+F 1 "GND" H 3400 4325 50  0000 C CNN
 F 2 "" H 3275 4325 50  0001 C CNN
 F 3 "" H 3275 4325 50  0001 C CNN
 	1    3275 4325
@@ -731,7 +719,7 @@ L power:GND #PWR0165
 U 1 1 5DB0F3D3
 P 2800 4325
 F 0 "#PWR0165" H 2800 4075 50  0001 C CNN
-F 1 "GND" H 2805 4152 50  0000 C CNN
+F 1 "GND" H 2800 4200 50  0000 C CNN
 F 2 "" H 2800 4325 50  0001 C CNN
 F 3 "" H 2800 4325 50  0001 C CNN
 	1    2800 4325
@@ -743,34 +731,48 @@ Wire Wire Line
 	3250 4325 3275 4325
 NoConn ~ 4400 5775
 NoConn ~ 4400 5875
-NoConn ~ 4400 4575
-NoConn ~ 4400 4775
-NoConn ~ 4400 4875
-NoConn ~ 4400 4975
-NoConn ~ 4400 5075
 NoConn ~ 4400 5175
 NoConn ~ 4400 5275
-NoConn ~ 4400 5975
 NoConn ~ 4400 6075
 NoConn ~ 11800 3075
 NoConn ~ 11800 3175
 NoConn ~ 11800 3275
 NoConn ~ 11800 3375
 NoConn ~ 11800 3475
-NoConn ~ 11800 3675
 NoConn ~ 11800 3775
 NoConn ~ 11800 4075
 NoConn ~ 11800 4575
 NoConn ~ 11800 4875
-NoConn ~ 11800 5375
-NoConn ~ 11800 5475
-NoConn ~ 11775 5575
-NoConn ~ 11775 5675
 NoConn ~ 11800 5975
 Text HLabel 11800 4975 2    60   Input ~ 0
 STM_RES2
 Text HLabel 11800 4775 2    60   Input ~ 0
 STM_RES1
-Text HLabel 3925 5575 0    60   BiDi ~ 0
+Text HLabel 4100 4575 0    60   BiDi ~ 0
 M_SCS
+NoConn ~ 4400 5475
+NoConn ~ 4400 5575
+NoConn ~ 4400 5675
+NoConn ~ 11800 3875
+NoConn ~ 11800 3975
+NoConn ~ 11775 6075
+NoConn ~ 11775 6275
+NoConn ~ 11775 5575
+NoConn ~ 11775 5675
+NoConn ~ 4400 4775
+NoConn ~ 4400 4875
+Text HLabel 11800 3675 2    60   Output ~ 0
+PWM_1
+Text HLabel 11775 6175 2    60   Output ~ 0
+PWM_2
+NoConn ~ 11800 5475
+NoConn ~ 11800 5375
+Wire Wire Line
+	4400 4575 4100 4575
+Wire Wire Line
+	4400 4975 4100 4975
+Wire Wire Line
+	4400 5075 4100 5075
+Wire Wire Line
+	4400 5975 4100 5975
 $EndSCHEMATC
