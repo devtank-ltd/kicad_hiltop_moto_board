@@ -761,9 +761,9 @@ NoConn ~ 11775 5575
 NoConn ~ 11775 5675
 NoConn ~ 4400 4775
 NoConn ~ 4400 4875
-Text HLabel 11800 3675 2    60   Output ~ 0
-PWM_1
 Text HLabel 11775 6175 2    60   Output ~ 0
+PWM_1
+Text HLabel 11800 3675 2    60   Output ~ 0
 PWM_2
 NoConn ~ 11800 5475
 NoConn ~ 11800 5375
