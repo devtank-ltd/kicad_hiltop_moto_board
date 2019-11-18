@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/kicad_hiltop_moto_board/moto_board.sch)
-    (date "Fri 15 Nov 2019 11:13:29 GMT")
+    (date "Mon 18 Nov 2019 08:50:37 GMT")
     (tool "Eeschema 5.1.4-e60b266~84~ubuntu19.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
