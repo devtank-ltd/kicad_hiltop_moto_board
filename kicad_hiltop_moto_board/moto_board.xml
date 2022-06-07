@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/kicad_hiltop_moto_board/moto_board.sch</source>
-    <date>Wed 13 Nov 2019 16:14:11 GMT</date>
+    <date>Mon 18 Nov 2019 14:30:10 GMT</date>
     <tool>Eeschema 5.1.4-e60b266~84~ubuntu19.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1191,7 +1191,7 @@
     </comp>
     <comp ref="Q1">
       <value>CSD18540Q5B</value>
-      <footprint>Devtank_PCB_Lib:CSD18540Q5B</footprint>
+      <footprint>Devtank_PCB_Lib:TI_CSD18540Q5B</footprint>
       <datasheet>http://www.ti.com/lit/gpn/csd18540q5b</datasheet>
       <libsource lib="Transistor" part="CSD18540Q5B" description="100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
@@ -1199,7 +1199,7 @@
     </comp>
     <comp ref="Q4">
       <value>CSD18540Q5B</value>
-      <footprint>Devtank_PCB_Lib:CSD18540Q5B</footprint>
+      <footprint>Devtank_PCB_Lib:TI_CSD18540Q5B</footprint>
       <datasheet>http://www.ti.com/lit/gpn/csd18540q5b</datasheet>
       <libsource lib="Transistor" part="CSD18540Q5B" description="100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
@@ -1234,7 +1234,7 @@
     </comp>
     <comp ref="Q3">
       <value>CSD18540Q5B</value>
-      <footprint>Devtank_PCB_Lib:CSD18540Q5B</footprint>
+      <footprint>Devtank_PCB_Lib:TI_CSD18540Q5B</footprint>
       <datasheet>http://www.ti.com/lit/gpn/csd18540q5b</datasheet>
       <libsource lib="Transistor" part="CSD18540Q5B" description="100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
@@ -1242,7 +1242,7 @@
     </comp>
     <comp ref="Q7">
       <value>CSD18540Q5B</value>
-      <footprint>Devtank_PCB_Lib:CSD18540Q5B</footprint>
+      <footprint>Devtank_PCB_Lib:TI_CSD18540Q5B</footprint>
       <datasheet>http://www.ti.com/lit/gpn/csd18540q5b</datasheet>
       <libsource lib="Transistor" part="CSD18540Q5B" description="100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
@@ -1250,7 +1250,7 @@
     </comp>
     <comp ref="Q2">
       <value>CSD18540Q5B</value>
-      <footprint>Devtank_PCB_Lib:CSD18540Q5B</footprint>
+      <footprint>Devtank_PCB_Lib:TI_CSD18540Q5B</footprint>
       <datasheet>http://www.ti.com/lit/gpn/csd18540q5b</datasheet>
       <libsource lib="Transistor" part="CSD18540Q5B" description="100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
@@ -1258,7 +1258,7 @@
     </comp>
     <comp ref="Q6">
       <value>CSD18540Q5B</value>
-      <footprint>Devtank_PCB_Lib:CSD18540Q5B</footprint>
+      <footprint>Devtank_PCB_Lib:TI_CSD18540Q5B</footprint>
       <datasheet>http://www.ti.com/lit/gpn/csd18540q5b</datasheet>
       <libsource lib="Transistor" part="CSD18540Q5B" description="100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
@@ -1266,7 +1266,7 @@
     </comp>
     <comp ref="Q5">
       <value>CSD18540Q5B</value>
-      <footprint>Devtank_PCB_Lib:CSD18540Q5B</footprint>
+      <footprint>Devtank_PCB_Lib:TI_CSD18540Q5B</footprint>
       <datasheet>http://www.ti.com/lit/gpn/csd18540q5b</datasheet>
       <libsource lib="Transistor" part="CSD18540Q5B" description="100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
@@ -1274,7 +1274,7 @@
     </comp>
     <comp ref="Q8">
       <value>CSD18540Q5B</value>
-      <footprint>Devtank_PCB_Lib:CSD18540Q5B</footprint>
+      <footprint>Devtank_PCB_Lib:TI_CSD18540Q5B</footprint>
       <datasheet>http://www.ti.com/lit/gpn/csd18540q5b</datasheet>
       <libsource lib="Transistor" part="CSD18540Q5B" description="100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
@@ -1325,7 +1325,7 @@
     </comp>
     <comp ref="C5">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="ESR">LOW</field>
@@ -1348,7 +1348,7 @@
     </comp>
     <comp ref="C1">
       <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="Dielectric">X7R</field>
         <field name="Voltage">6.3V</field>
@@ -1489,14 +1489,14 @@
     </comp>
     <comp ref="F1">
       <value>Polyfuse</value>
-      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <footprint>Fuse:Fuse_Bourns_MF-RHT200</footprint>
       <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
       <tstamp>5E6611B7</tstamp>
     </comp>
     <comp ref="F2">
       <value>Polyfuse</value>
-      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <footprint>Fuse:Fuse_Bourns_MF-RHT200</footprint>
       <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
       <sheetpath names="/motor_control/" tstamps="/604188AB/"/>
       <tstamp>5E6BB9FD</tstamp>
@@ -3216,18 +3216,18 @@
       <node ref="R11" pin="2"/>
     </net>
     <net code="62" name="/PWM_2">
-      <node ref="U22" pin="35"/>
       <node ref="J7" pin="4"/>
       <node ref="J9" pin="4"/>
-    </net>
-    <net code="63" name="/PWM_1">
-      <node ref="J8" pin="4"/>
-      <node ref="J6" pin="4"/>
       <node ref="U22" pin="22"/>
     </net>
+    <net code="63" name="/PWM_1">
+      <node ref="J6" pin="4"/>
+      <node ref="U22" pin="35"/>
+      <node ref="J8" pin="4"/>
+    </net>
     <net code="64" name="/M_FAULTn">
-      <node ref="U22" pin="53"/>
       <node ref="TP23" pin="1"/>
+      <node ref="U22" pin="53"/>
       <node ref="R12" pin="2"/>
     </net>
     <net code="65" name="/12V_EXT">

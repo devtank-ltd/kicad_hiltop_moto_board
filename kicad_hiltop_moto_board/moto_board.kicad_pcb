@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 1.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.36)
@@ -1871,7 +1871,7 @@
       (net 113 /A2))
     (pad 1 thru_hole rect (at -5.25 -2.5 270) (size 2.1 2.1) (drill 1.1) (layers *.Cu *.Mask)
       (net 114 /A1))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/pxc_1862068_01_SPTAF-1-4-3-5-EL_3D.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/pxc_1862068_01_SPTAF-1-4-3-5-EL_3D.stp
       (offset (xyz -7.75 -5.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1914,7 +1914,7 @@
       (net 112 /B2))
     (pad 1 thru_hole rect (at -5.25 -2.5 270) (size 2.1 2.1) (drill 1.1) (layers *.Cu *.Mask)
       (net 111 /B1))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/pxc_1862068_01_SPTAF-1-4-3-5-EL_3D.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/pxc_1862068_01_SPTAF-1-4-3-5-EL_3D.stp
       (offset (xyz -7.75 -5.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8091,7 +8091,7 @@
     (pad 6 thru_hole circle (at 2.54 2.54) (size 2.794 2.794) (drill 2.54) (layers *.Cu *.Mask))
     (pad 7 thru_hole circle (at -12.7 10.16) (size 4.572 4.572) (drill 4.064) (layers *.Cu *.Mask))
     (pad 8 thru_hole circle (at -2.54 10.16) (size 4.572 4.572) (drill 4.064) (layers *.Cu *.Mask))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/c-0641737-01-g-3d.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/c-0641737-01-g-3d.stp
       (offset (xyz -7.75 -12.75 4))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -8897,7 +8897,7 @@
       (net 30 "Net-(F1-Pad1)"))
     (pad 3 smd rect (at 2.77 1.905) (size 1.372 0.71) (layers F.Cu F.Paste F.Mask)
       (net 30 "Net-(F1-Pad1)"))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/CSD18540Q5B.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/CSD18540Q5B.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8964,7 +8964,7 @@
       (net 92 "Net-(F2-Pad2)"))
     (pad 3 smd rect (at 2.77 1.905) (size 1.372 0.71) (layers F.Cu F.Paste F.Mask)
       (net 92 "Net-(F2-Pad2)"))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/CSD18540Q5B.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/CSD18540Q5B.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9031,7 +9031,7 @@
       (net 30 "Net-(F1-Pad1)"))
     (pad 3 smd rect (at 2.77 1.905) (size 1.372 0.71) (layers F.Cu F.Paste F.Mask)
       (net 30 "Net-(F1-Pad1)"))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/CSD18540Q5B.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/CSD18540Q5B.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9098,7 +9098,7 @@
       (net 105 "Net-(Q4-Pad2)"))
     (pad 3 smd rect (at 0.93 0.01 180) (size 3.85 4.52) (layers F.Cu F.Paste F.Mask)
       (net 114 /A1))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/CSD18540Q5B.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/CSD18540Q5B.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9165,7 +9165,7 @@
       (net 106 "Net-(Q5-Pad2)"))
     (pad 3 smd rect (at 0.93 0.01 180) (size 3.85 4.52) (layers F.Cu F.Paste F.Mask)
       (net 92 "Net-(F2-Pad2)"))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/CSD18540Q5B.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/CSD18540Q5B.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9232,7 +9232,7 @@
       (net 108 "Net-(Q6-Pad2)"))
     (pad 3 smd rect (at 0.93 0.01 180) (size 3.85 4.52) (layers F.Cu F.Paste F.Mask)
       (net 111 /B1))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/CSD18540Q5B.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/CSD18540Q5B.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9299,7 +9299,7 @@
       (net 109 "Net-(Q7-Pad2)"))
     (pad 3 smd rect (at 0.93 0.01 180) (size 3.85 4.52) (layers F.Cu F.Paste F.Mask)
       (net 113 /A2))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/CSD18540Q5B.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/CSD18540Q5B.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9366,7 +9366,7 @@
       (net 112 /B2))
     (pad 3 smd rect (at 2.77 1.905) (size 1.372 0.71) (layers F.Cu F.Paste F.Mask)
       (net 112 /B2))
-    (model /home/adil/Documents/LBBC/KiCAD/kicad_hiltop_moto_board/CSD18540Q5B.stp
+    (model /home/adil/Documents/LBBC/KiCAD/Moto_Board/kicad_hiltop_moto_board/common/Devtank_models.3dshapes/CSD18540Q5B.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

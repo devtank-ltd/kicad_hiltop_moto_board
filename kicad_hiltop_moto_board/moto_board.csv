@@ -1,7 +1,7 @@
 Title,Sensi Board
 Revision,Draft
 Date,2019-10-01
-Generated,Wed 13 Nov 2019 16:14:11 GMT
+Generated,Mon 18 Nov 2019 14:30:10 GMT
 Company,
 Comment 1,
 Comment 2,
@@ -13,11 +13,11 @@ Total Unique Parts,68
 
 
 Ref,Qty,Value,Footprint,Datasheet,Devtank,Dielectric,ESR,Tolerance,Voltage,Voltage ,
-C1 ,1,1uF,Capacitor_SMD:C_0402_1005Metric,, ,X7R, , ,6.3V, 
+C1 ,1,1uF,Capacitor_SMD:C_0603_1608Metric,, ,X7R, , ,6.3V, 
 C2 ,1,0.1uF,Capacitor_SMD:C_0402_1005Metric,, ,X7R, , ,10V, 
 C3 ,1,0.1uF,Capacitor_SMD:C_0402_1005Metric,, ,X7R,LOW, , ,50V
 C4 ,1,0.01uF,Capacitor_SMD:C_0402_1005Metric,, , ,LOW, ,50V, 
-C5 ,1,1uF,Capacitor_SMD:C_0402_1005Metric,, ,X7R,LOW, ,16V, 
+C5 ,1,1uF,Capacitor_SMD:C_0603_1608Metric,, ,X7R,LOW, ,16V, 
 C6 C7 ,2,0.1uF,Capacitor_SMD:C_0402_1005Metric,, , , , ,50V, 
 C8 C9 C14 C15 C16 C17 C18 C19 ,8,100uF,Capacitor_SMD:CP_Elec_6.3x7.7,, , , , ,50V, 
 C10 C11 ,2,10uF,Capacitor_SMD:C_0805_2012Metric,,105-001, , , , , 
@@ -39,7 +39,7 @@ D2 ,1,RED,LED_SMD:LED_0603_1608Metric,~, , , , , ,
 D3 D4 D5 ,3,GRN,LED_SMD:LED_0603_1608Metric,~, , , , , , 
 D13 ,1,GRN,LED_SMD:LED_0603_1608Metric,~,110-002, , , , , 
 D32 ,1,MBR230LSFT1G,Diode_SMD:D_SOD-123,,133-006, , , , , 
-F1 F2 ,2,Polyfuse,Fuse:Fuse_2920_7451Metric,, , , , , , 
+F1 F2 ,2,Polyfuse,Fuse:Fuse_Bourns_MF-RHT200,, , , , , , 
 J1 ,1,Conn_01x04,Devtank_PCB_Lib:Molex_8981,~, , , , , , 
 J2 J4 ,2,Conn_01x04,Devtank_PCB_Lib:Phoenix_Contact_SPTAF_4_way_terminal_block,~, , , , , , 
 J3 ,1,Conn_03x32_DIN41612,Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Male-96Pin-3rows_correct,,717-002, , , , , 
@@ -48,7 +48,7 @@ J6 J7 J8 J9 ,4,Conn_01x04,Devtank_PCB_Lib:moto_board_4_pin_header,~, , , , , ,
 JP1 ,1,Jumper_NC_Dual,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,,710-014, , , , , 
 L1 ,1,500mA/0.10DCR,Inductor_SMD:L_0805_2012Metric,, , , , , , 
 L11 ,1,2A/0.05DCR,Inductor_SMD:L_0805_2012Metric,,113-002, , , , , 
-Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 ,8,CSD18540Q5B,Devtank_PCB_Lib:CSD18540Q5B,http://www.ti.com/lit/gpn/csd18540q5b, , , , , , 
+Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 ,8,CSD18540Q5B,Devtank_PCB_Lib:TI_CSD18540Q5B,http://www.ti.com/lit/gpn/csd18540q5b, , , , , , 
 R1 ,1,DNF,Resistor_SMD:R_1210_3225Metric,, , , , , , 
 R2 R17 R37 R38 R45 R46 R48 R74 R77 R96 R108 R110 ,12,DNF,Resistor_SMD:R_0603_1608Metric,, , , , , , 
 R3 R8 R9 R10 R11 R12 R21 R24 R25 R26 R27 R28 R33 R34 R35 R36 ,16,0R,Resistor_SMD:R_0603_1608Metric,, , , , , , 
@@ -86,4 +86,4 @@ Y3 ,1,ABS25-32.768KHZ-6-T,Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm,,181-008, , , 
 
 
 BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
-Generated Wed 13 Nov 2019 16:14:11 GMT
+Generated Mon 18 Nov 2019 14:30:10 GMT
